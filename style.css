@@ -1,0 +1,239 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bebas+Neue&family=M+PLUS+Rounded+1c&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Saira+Stencil:ital,wght@0,100..900;1,100..900&display=swap');
+
+                      /* ----------------header----------------- */
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+.header a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+}
+
+
+
+
+/* --------------nav================== */
+.navbar-nav a {
+    color: white;
+    font-size: 1.2rem;
+    text-decoration: none;
+    margin-right: 2rem;
+}
+
+.baar {
+    font-size: 1.4rem;
+    color: white;
+    
+}
+
+.navbar button {
+    outline: 0px;
+}
+
+.nav-link {
+    color: white;
+    font-weight: 600;
+}
+/* --------------------main----------------------------- */
+.main {
+    background-color: white;
+}
+
+
+#banner {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+.login {
+    background-image: linear-gradient(to right, #2C2F72, #4266B0);
+}
+
+.login button {
+    width: 15vw;
+    border: none;
+    color: #4b2a75;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: 500;
+    
+}
+
+.login_logo {
+    height: fit-content;
+}
+
+.login_logo h3 {
+    font-size: 1.8rem;
+}
+
+.login_logo img {
+    width: 90px;
+    height: 35px;
+    filter: drop-shadow(2px 4px 10px rgba(255, 255, 255, 0.39));
+}
+
+
+/* ------------------------card--------------------? */
+.front {
+    background-color: #f2f2f2;
+}
+
+
+
+
+.cont {
+    background-color: rgb(245, 245, 245);
+    border-radius: 8px;
+    margin-top: 7vh;
+    margin-bottom: 7vh;
+    
+}
+
+.cont h1 {
+    font-size: 3rem;
+    color: #2C2F72;
+    
+}
+
+.cont h2 {
+    font-size: 2.5rem;
+    color: gray;
+    
+}
+
+.cont hr {
+    
+    color: purple;
+    
+}
+
+/* ==================================get started------------------------------ */
+.navbar button {
+    width: 12vw;
+    color: #4b2a75;
+    font-weight: 600;
+    border: 1px solid #2a1842;
+}
+
+.navbar button:hover {
+    width: 12vw;
+    color: white;
+    background-color: #4b2a75;
+    font-weight: 600;
+    border: 1px solid #2a1842;
+}
+
+/* -----------------------------------yono--------------------------------? */
+.yono img {
+    width: 80%;
+    
+    /* height: 100%; */
+    transition: all .6s ease;
+}
+.yono img:hover {
+   transform: scale(102%);
+   
+}
+/* -----------------------------Benefits--------------------------------? */
+.foot {
+    background-image: linear-gradient(to right, #2C2F72, #4266B0);
+
+}
+
+.benefit_box {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.4rem;
+}
+
+.benefit_box .div {
+    border-radius: 8px;
+    color: #4b2a75;
+    align-self: center;
+    font-weight: 600;
+}
+
+.benefit_box ul {
+    list-style: none;
+    
+}
+.benefit_box ul li:hover {
+    color: #E2AC12;
+}
+
+.tick {
+    color: #E2AC12;
+}
+
+
+
+
+/* ============================footer---------------------? */
+
+
+.footer_last {
+    
+    background-image: radial-gradient(#365799, #2C2F72);
+    color: white;
+    font-size: 1rem;
+    font-weight: 300;
+
+}
+.fist h4 {
+    font-size: 1.2rem;
+    color: #E2AC12;
+    margin-top: 5vh;
+    cursor: text;
+}
+
+.fist ul {
+    list-style: none;
+    padding-left: 0;
+    cursor: pointer;
+}
+
+.fist ul a {
+    color: white;
+    text-decoration: none;
+}
+.fist ul a:hover {
+    color: rgb(219, 153, 153);
+    text-decoration: underline;
+}
+
+/* ==========================feartures-------------------     different page..=== */
+
+
+.features img {
+    height: 200px;
+
+}
+
+.card {
+    width: 20vw;
+    /* box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.459); */
+    transition: all .4s ease;
+
+}
+
+.card:hover {
+    transform: scale(102%);
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.209);
+}
+
+.active {
+    font-weight: 600;
+}

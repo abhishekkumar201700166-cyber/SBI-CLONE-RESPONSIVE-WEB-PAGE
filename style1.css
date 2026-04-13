@@ -1,0 +1,95 @@
+  
+
+/* =================================contact page---------------------------------------? */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bebas+Neue&family=M+PLUS+Rounded+1c&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Saira+Stencil:ital,wght@0,100..900;1,100..900&display=swap');
+/* ----------------header----------------- */
+body {
+    font-family: "Roboto", sans-serif;
+}
+.header a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+}
+
+.active {
+    font-weight: 600;
+}
+
+/* --------------------main----------------------------- */
+.main {
+    font-size: 1.6rem;
+}
+
+.main p {
+    font-family: "Roboto", sans-serif;
+    font-size: 1.4rem;
+
+}
+
+/* -----------------------content--------------------------? */
+.partx {
+    border: 1px solid rgb(172, 172, 172);
+    border-radius: 20px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.267);
+}
+
+.part1 ul,
+.partx ul {
+    padding-left: 0;
+
+}
+
+.part1 ul li,
+.partx ul li {
+    list-style: none;
+    font-family: "Saira Stencil", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 1.4rem;
+
+
+}
+
+/* -------------------------form---------------------- */
+.message {
+    height: 18vh;
+}
+
+.box-image {
+    display: flex;
+}
+
+/* ----------------------------medium hidden------------------- */
+.box-image img {
+    width: 50%;
+    height: auto;
+}
+
+.div {
+    width: 50%;
+    /* border: 1px solid black; */
+}
+.navbar-nav a {
+    color: white;
+    font-size: 1.2rem;
+    text-decoration: none;
+    margin-right: 2rem;
+}
+
+.baar {
+    font-size: 1.4rem;
+    color: white;
+
+}
+
+.navbar button {
+    outline: 0px;
+}
+
+.nav-link{
+    color: white;
+    font-weight: 600;
+}
